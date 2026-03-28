@@ -1,0 +1,4 @@
+#Explore the data
+1- understad the data 
+2-identify the problem
+3-plan next step 

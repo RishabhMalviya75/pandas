@@ -7,5 +7,5 @@ data = {
 }
 df =pd.DataFrame(data)
 print(df)
-# save the dataframe to an Excel file
-df.to_excel('output.xlsx', index=False)
+# save the dataframe to a JSON file
+df.to_json('output.json', orient='records')
