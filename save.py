@@ -7,5 +7,5 @@ data = {
 }
 df =pd.DataFrame(data)
 print(df)
-# save the dataframe to a csv file
-df.to_csv('output.csv', index=False)
+# save the dataframe to an Excel file
+df.to_excel('output.xlsx', index=False)
